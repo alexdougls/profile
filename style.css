@@ -1,0 +1,130 @@
+/* COLORS AND FONTS */
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #575F7D;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #82B9E7;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  margin: 15px;
+}
+
+/*li {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* CONTAINERS */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.btn-red {
+  display: block;
+  background-color: #FD1015;
+  padding: 12px 36px;
+  margin: 30px auto;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  width: 35%;
+}
+
+.btn-red:hover {
+  background-color: #e80a0f;
+  color: white;
+}
+
+.avatar-rounded {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+li > a {
+  font-size: 35px;
+}
+
+#footer {
+  padding: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
